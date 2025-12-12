@@ -5,114 +5,114 @@ This project demonstrates the development of a NewsBot Intelligence System using
 
 
 
-🎯 Project Objectives
+Project Objectives
 
-Load and preprocess the BBC News dataset
+- Load and preprocess the BBC News dataset
 
-Build multiple text representation models:
+- Build multiple text representation models:
 
-Bag-of-Words (BOW)
+- Bag-of-Words (BOW)
 
-TF-IDF
+- TF-IDF
 
-Word Embeddings
+- Word Embeddings
 
-Train and evaluate classification models
+- Train and evaluate classification models
 
-Compare performance between representations
+- Compare performance between representations
 
-Generate visualizations and performance metrics
+- Generate visualizations and performance metrics
 
-Produce insights for the NewsBot system
-
-
-
-🧠 Key Analyses Performed
-
-Preprocessing
-
-Tokenization
-
-Stopword removal
-
-Lowercasing
-
-Lemmatization
-
-Feature Extraction
-
-BOW vectors using CountVectorizer
-
-TF-IDF vectors
-
-Dense embedding representations
-
-Models Tested
-
-Logistic Regression
-
-Support Vector Machine
-
-Random Forest
-
-Naïve Bayes
-
-Evaluation Metrics
-
-Accuracy
-
-F1 Score
-
-Confusion Matrix
-
-Classification Report
-
-Visualization Outputs
-
-Term frequency charts
-
-Category distribution
-
-Training accuracy curves
+- Produce insights for the NewsBot system
 
 
 
-💡 My Contributions
+Key Analyses Performed
 
-Full preprocessing pipeline development
+- Preprocessing
 
-Implementation of TF-IDF & BOW feature extraction
+- Tokenization
 
-Hyperparameter tuning for classifier models
+- Stopword removal
 
-Visualizations (matplotlib/seaborn)
+- Lowercasing
 
-Summary interpretation of results
+- Lemmatization
 
-Integration of models into a unified evaluation framework
+- Feature Extraction
 
-Documentation and notebook cleanup
+- BOW vectors using CountVectorizer
+
+- TF-IDF vectors
+
+- Dense embedding representations
+
+- Models Tested
+
+- Logistic Regression
+
+- Support Vector Machine
+
+- Random Forest
+
+- Naïve Bayes
+
+- Evaluation Metrics
+
+- Accuracy
+
+- F1 Score
+
+- Confusion Matrix
+
+- Classification Report
+
+- Visualization Outputs
+
+- Term frequency charts
+
+- Category distribution
+
+- Training accuracy curves
 
 
 
-📊 Findings & Insights
+My Contributions
 
-TF-IDF outperformed BOW in most models due to better handling of term relevance.
+- Full preprocessing pipeline development
 
-SVM achieved the highest accuracy, indicating strong performance on sparse text data.
+- Implementation of TF-IDF & BOW feature extraction
 
-Word embeddings improved semantic understanding, but required more compute.
+- Hyperparameter tuning for classifier models
 
-Errors occurred primarily in similar categories (e.g., politics vs. business).
+- Visualizations (matplotlib/seaborn)
+
+- Summary interpretation of results
+
+- Integration of models into a unified evaluation framework
+
+- Documentation and notebook cleanup
 
 
 
-🧠 How This Supports the NewsBot System
+Findings & Insights
 
-Enables automatic article classification
+- TF-IDF outperformed BOW in most models due to better handling of term relevance.
 
-Helps direct news content to appropriate channels
+- SVM achieved the highest accuracy, indicating strong performance on sparse text data.
 
-Improves search accuracy by labeling articles
+- Word embeddings improved semantic understanding, but required more compute.
 
-Can be extended to recommendation systems
+- Errors occurred primarily in similar categories (e.g., politics vs. business).
+
+
+
+How This Supports the NewsBot System
+
+- Enables automatic article classification
+
+- Helps direct news content to appropriate channels
+
+- Improves search accuracy by labeling articles
+
+- Can be extended to recommendation systems

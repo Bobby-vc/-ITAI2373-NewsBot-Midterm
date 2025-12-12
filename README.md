@@ -3,7 +3,7 @@ Midterm Project — Machine Learning Text Classification
 
 This project demonstrates the development of a NewsBot Intelligence System using machine learning and natural language processing. The goal of this system is to classify BBC news articles into categories using different text-representation methods and compare performance across models.
 
-
+Kaggle BBC Dataset [https://www.kaggle.com/datasets/ankurzing/sentiment-analysis-for-financial-news?resource=download&select=all-data.csv]
 
 Project Objectives
 
